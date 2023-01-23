@@ -1,0 +1,206 @@
+#contener{
+    height: 700px;
+    width: 470px;
+    border: medium #3bffdf inset;
+    margin: 0px auto 0px auto;
+    position: relative;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 20px 20px 20px #022522;
+
+
+    border-image-source: linear-gradient(to right, red, blue);
+    border-image-slice: 40;
+    border-image-width: 20px;
+    animation: change-border-color 5s linear infinite;
+
+
+}
+body{
+    background-color:#333132;
+}
+#entete{
+    height: 110px;
+    width: 470px;
+    background-color: beige;
+    border-radius: 12px 12px 0px 0px;
+    padding-top: 15px;
+    position: relative;
+
+
+}
+
+#photo{
+    height: 90px;
+    width: 90px;
+    background-color: #008b8b;
+    margin-left: 20px;
+    border-radius: 100px 100px 0px 100px;
+    float: left;
+
+}
+#textentete{
+    margin-top: 45px;
+    float: left;
+    background-color: darkcyan;
+    border-radius: 0px 10px 10px 0px;
+    height: 45px;
+    width: 150px;
+}
+.ent{
+    font-family: Ebrima;
+    font-size: 17px;
+    font-style: italic;
+    color: #F2DFDF;
+    position: relative;
+    margin: 10px 0px 15px 13px;
+
+
+}
+#tete{
+    margin-left: 15px;
+    margin-top: 0px;
+
+}
+#classe{
+    font-family: Ebrima;
+    font-style: italic;
+    color: darkcyan;
+    margin-top: 56px;
+    font-size: 17px;
+    margin-left: 275px;
+}
+#marge{
+    background-color: #444243;
+    width: 125px;
+    height: 500px;
+    float: left;
+}
+#corp{
+    height: 500px;
+    width:470px;
+    position: relative;
+}
+#pied{
+
+    height: 75px;
+    width:470px ;
+    background-color: #008b8b;
+    border-radius: 0px 0px 10px 10px;
+    float: right;
+
+
+
+}
+#droite{
+    width: 345px;
+    height: 500px;
+    float: right;
+    background-color: #3bffdf;
+
+}
+.titremarge{
+
+}
+.titreimg{
+    font-family: Ebrima;
+    font-size: 18px;
+    color: #F2DFDF;
+    margin-left:18px ;
+
+}
+.num{
+    font-size: 12px;
+    margin-left:5px ;
+    color: #F2DFDF;
+
+}
+hr{
+    color: #F2DFDF;
+}
+.titreimge{
+    font-family: Ebrima;
+    font-size: 15px;
+    color: floralwhite;
+    margin-left:200px ;
+    margin-bottom: 15px;
+
+}
+
+
+.logo{
+    margin-left: 75px;
+    right: 70px;
+    left: 70px;
+}
+#enbas{
+    margin-left: 50px;
+
+
+}
+.text{
+    margin-left: 160px;
+    font-family: Ebrima;
+    color:floralwhite;
+    font-size: 15px;
+}
+#profil{
+    margin-right: 50px;
+}
+
+.par{
+    margin-top: 1px;
+    font-size: 11px;
+    font-family: Ebrima;
+    color: #444243;
+    margin-left: 17px;
+
+}
+#diplome {
+    margin-right: 50px;
+}
+.exp{
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #444243;
+
+
+}
+#exp{
+    margin-right: 50px;
+}
+.titre{
+    margin-left: 125px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    color: #444243;
+    font-family: Ebrima;
+
+
+}
+hr{
+    color: #444243;
+}
+
+
+
+@keyframes change-border-color {
+    0% {
+        border-image-source: linear-gradient(to right, indianred, beige);
+    }
+    20% {
+        border-image-source: linear-gradient(to right, #e1befa, #174739);
+    }
+    40% {
+        border-image-source: linear-gradient(to right, purple, pink);
+    }
+    60% {
+        border-image-source: linear-gradient(to right, oldlace, cadetblue);
+    }
+    80% {
+        border-image-source: linear-gradient(to right,burlywood, peachpuff);
+    }
+    100% {
+        border-image-source: linear-gradient(to right, lightcyan, palegreen);
+    }
+}
